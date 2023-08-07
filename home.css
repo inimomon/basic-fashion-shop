@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1c1b1b;
+}
+
+div.navbar {
+    display: inline-flex;
+}
+
+div.navbar #logo {
+    color: white;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: xx-large;
+    margin-top: -1px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+div.navbar ul {
+    display: inline-flex;
+}
+
+div.navbar li {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+div.navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+div.profile {
+    margin-top: 32px;
+    margin-left: 160px;
+    font-size: 150%;
+    display: inline-flex;
+    position: relative;
+}
+
+div.profile a {
+    display: inline-block;
+}
+
+div.container {
+    display: inline-flex;
+}
+
+div.container img {
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+div.container #title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 450%;
+    color: #ffdf3f;
+}
+
+div.kanan {
+    display: block;
+}
+
+div.kanan #tombol {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    background-color: #272525;
+    width: 40%;
+    height: 40px;
+    display: inline-block;
+}
+
+div.kanan h5 {
+    display: flex;
+    justify-content: center;
+    font-display: center;
+    margin-top: -1px;
+    margin-top: 12px;
+}
+
+div.kanan #tombol:hover {
+    background-color: #ffdf3f;
+    color: #272525;
+}
